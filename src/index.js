@@ -1,6 +1,4 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import App from './App';
+import defineElement from './custom-element';
 
-import App from "./App";
-
-ReactDOM.render(<App />, document.getElementById("root"));
+defineElement(App, 'react-flip-book');
