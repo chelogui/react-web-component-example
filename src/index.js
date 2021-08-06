@@ -1,4 +1,4 @@
-import App from './App';
+import ReactFlipBook from './ReactFlipBook';
 import defineElement from './custom-element';
 
-defineElement(App, 'react-flip-book');
+defineElement(ReactFlipBook, 'react-flip-book');

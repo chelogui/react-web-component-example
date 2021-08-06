@@ -1,6 +1,6 @@
 import React from 'react';
 
-const App = () => {
+const ReactFlipBook = () => {
   return (
     <div>
       <h1>This is a React Web Component</h1>
@@ -9,4 +9,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default ReactFlipBook;
