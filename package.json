@@ -2,6 +2,9 @@
   "name": "react",
   "version": "0.0.0",
   "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "dependencies": {
     "jquery": "2.1.4",
     "react": "^17.0.2",
@@ -14,6 +17,7 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
+    "lerna": "^4.0.0",
     "react-scripts": "latest"
   }
 }
