@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-const ReactFlipBook = () => {
+const FlipBook = () => {
   return (
     <div>
       <h1>This is a React Web Component</h1>
@@ -9,4 +9,4 @@ const ReactFlipBook = () => {
   );
 };
 
-export default ReactFlipBook;
+export default FlipBook;
